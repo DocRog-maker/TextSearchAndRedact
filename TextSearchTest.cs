@@ -22,7 +22,7 @@ namespace TextSearchAndRedactCS
 
       static void Main(string[] args)
       {
-         PDFNet.Initialize(PDFTronLicense.Key);
+         PDFNet.Initialize("[Your license key]");
 
          // Relative path to the folder containing test files.
          string input_path = "../../";

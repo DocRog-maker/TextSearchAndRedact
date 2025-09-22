@@ -50,9 +50,6 @@
   <ItemGroup>
     <Compile Include="TextSearchTest.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="..\..\LicenseKey\CS\LicenseKey.cs">
-      <Link>LicenseKey.cs</Link>
-    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
